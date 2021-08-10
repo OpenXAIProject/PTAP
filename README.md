@@ -1,7 +1,7 @@
 # Prototypes of Temporally Activated Patterns
 
-<img align="right" src="http://sailab.kaist.ac.kr/research-ptap/>
-
+<img align="right" src="http://sailab.kaist.ac.kr/wp-content/uploads/2021/06/PTAP_figure_main-1024x351.png">
+<br>
 Deep neural networks have demonstrated competitive performance in classification tasks for sequential data. However, it remains difficult to understand which temporal patterns the internal channels of deep neural networks capture for decision-making in sequential data. To address this issue, we propose a new framework with which to visualize temporal representations learned in deep neural networks without hand-crafted segmentation labels. Given input data, our framework extracts highly activated temporal regions that contribute to activating internal nodes and characterizes such regions by prototype selection method based on Maximum Mean Discrepancy. Representative temporal patterns referred to here as Prototypes of Temporally Activated Patterns (PTAPs) provide core examples of sub-sequences in the sequential data for interpretability. We also analyze the role of each channel by Valeu-LRP plots using representative prototypes and the distribution of the input attribution. Input attribution plots give visual information to recognize the shapes focused on by the channel for decision-making.
 
                     
@@ -36,6 +36,6 @@ https://github.com/BeenKim/MMD-critic
 
 + Managed by Ministry of Science and ICT/XAIC <img align="right" src="http://xai.unist.ac.kr/static/img/logos/XAIC_logo.png" width=300px>
 
-+ Participated Affiliation : UNIST, Korea Univ., Yonsei Univ., KAIST, AItrics  
++ Participated Affiliation : KAIST, Korea Univ., Yonsei Univ., AITRICS, UNIST  
 
-+ Web Site : <http://openXai.org>
++ Web Site : <http://XAI.kaist.ac.kr>
